@@ -1,7 +1,7 @@
 # ExploreMalang-App
 Website sederhana ini dibuat untuk memperkenalkan Kabupaten Malang dengan menampilkan sejarah, maskot, dan tempat wisata yang ada di daerah tersebut. Proyek ini menggunakan HTML dan CSS untuk tampilan statis tanpa backend
 
-✨ Fitur Website
+## ✨ Fitur Website
 
 ✅ Tampilan responsif
 
@@ -12,16 +12,15 @@ Website sederhana ini dibuat untuk memperkenalkan Kabupaten Malang dengan menamp
 ✅ Tabel informasi tempat wisata
 
 ✅ Desain sederhana dan mudah digunakan
+
 ---
-📌 Teknologi yang Digunakan
+## 📌 Teknologi yang Digunakan
+- HTML untuk struktur halaman
+- CSS untuk tampilan dan desain
+- Google Fonts untuk font Quicksand & Poppins
 
-HTML untuk struktur halaman
-
-CSS untuk tampilan dan desain
-
-Google Fonts untuk font Quicksand & Poppins
 ---
-🖼️ Preview Tampilan
+## 🖼️ Preview Tampilan
 
-![Preview Tampilan](/image/preview.png)
+![Preview Tampilan](https://github.com/Rizkyhanifaa/ExploreMalang-App/blob/main/image/preview.PNG?raw=true)
 
