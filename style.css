@@ -1,0 +1,197 @@
+/* warna */
+:root {
+    --primary-color: #ace650;
+    --secondary-color: #769741;
+    --text-color: #31241e;
+    --secondary-text-color: #f6f4f3;
+}
+
+/* reset style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f4f3;
+    padding: 0;
+    margin: 0;
+    color: #232c24;
+    line-height: 1.5;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+    background-color: var(--secondary-color);
+    color: var(--secondary-text-color);
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: var(--secondary-text-color-color);
+    text-decoration: none; /* menghapus underline */
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out; /*Efek transisi saat hover*/
+}
+
+nav a:hover {
+    color: var(--text-color);
+    background-color: #d5ebb3;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 8px 10px;
+    transform: scale(1.1); /* Memperbesar elemen saat diarahkan */
+}
+
+nav ul {
+    display: flex; /*agar sejajar horizontal di elemen li */
+    list-style: none; /*menghapus bullet list */
+    justify-content: center;
+    align-items: center;
+    gap: 80px; /*memberikan jarak, antar kata*/
+    padding: 15px ;
+    margin: 0;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.jumbotron {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 80px;
+}
+
+.jumbotron h1 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+.jumbotron h3 {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    gap: 2rem;
+}
+
+.content h2{
+ color: var(--secondary-color);
+ 
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.card p {
+    text-align: justify;
+    text-indent: 40px; /*Agar tulisan menjorok kedalam*/
+}
+/* */
+.maskot-img {
+    width: 300px;
+    display: block; /*Agar gambar bisa diatur margin */
+    margin: auto; /*Agar gambarnya center */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    margin-bottom: 8px;
+}
+
+.wisata-img {
+    width: 15rem;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.card table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card th, .card td {
+    border: 1px solid #b3aaa7;
+    padding: 5px;
+    text-align: center;
+}
+
+.card th {
+    background-color: var(--primary-color);
+}
+
+.logo-img {
+    width: 100px;
+    margin: auto;
+}
+
+.content {
+    flex: 3;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
+}
+
+aside {
+    flex: 1;
+} 
+
+.profile.card {
+    width: 100%; /* Agar memenuhi lebar aside */
+  }
+
+aside h2 {
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+header {
+    display: inline;
+}
+
+.logo-img {
+    max-width: 200px;
+    display: block; /*Agar gambar bisa diatur margin */
+    margin: auto; /*Agar gambarnya center */
+    margin-top: 10px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* Agar layar responsif, ketika lebar layar 1200px atau lebih kecil */
+@media screen and (max-width: 1200px) {
+    main {
+        flex-flow: column nowrap; /*ketika layarnya kecil, elemen di main akan sejajar vertikal*/
+    }
+
+    main aside {
+        align-self: center ; /*agar elemen di aside berada di tengah*/
+    }
+}
+
+
+
+
